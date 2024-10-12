@@ -1,17 +1,34 @@
-*{
-    margin:0;
+/* General Reset */
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
-html,body{
-    width:100%;
-    height: 100%;
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    color: #333;
+    line-height: 1.6;
 }
 
-#map{
-    width: 100%;
-    height: 100%;
+/* Button Styling */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Map Styling */
+#map {
+    margin-top: 20px;
+    height: 500px;
 }
